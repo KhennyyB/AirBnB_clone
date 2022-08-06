@@ -55,7 +55,7 @@ class HBNBCommand(cmd.Cmd):
             return line
 
         if not ('.' in splt_line[0] and '(' in splt_line[0] and ')' in line):
-                return line
+            return line
         # use this string as a refernece to the regex
         # User.update(id, {"first_name":"elmahdi", "email":"test@alx.com"})
         # this finds the class name from the start
