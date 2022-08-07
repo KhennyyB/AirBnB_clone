@@ -129,10 +129,7 @@ class HBNBCommand(cmd.Cmd):
         return False
 
     def do_quit(self, arg):
-        '''exits the shell.
-        an exit status of 0 is returned.
-        files aren't saved on exit'''
-        exit(0)
+        '''Quit command to exit the program'''
 
     def do_EOF(self, arg):
         '''method that handles the EOF and exit the program'''
