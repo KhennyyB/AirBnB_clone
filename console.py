@@ -125,8 +125,8 @@ class HBNBCommand(cmd.Cmd):
         return stop
 
     def emptyline(self):
-        ''' overrides the bhavior of an empty line'''
-        return
+        ''' overrides the behavior of an empty line'''
+        return False
 
     def do_quit(self, arg):
         '''Quit command to exit the program'''
