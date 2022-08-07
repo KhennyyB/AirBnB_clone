@@ -14,7 +14,7 @@ my_user = User()
 my_user.first_name = "Cynthia"
 my_user.last_name = "Bar"
 my_user.email = "airbnb@mail.com"
-my_user.password = "alx"
+my_user.password = "root"
 my_user.save()
 print(my_user)
 
